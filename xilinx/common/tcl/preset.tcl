@@ -80,8 +80,8 @@ create_project -part $part_fpga $proj_name $orig_proj_dir
 
 # Set the board part, target language, default library, and IP directory
 # paths for the current project
+# BOARD_PART $part_board
 set_property -dict [list \
-	BOARD_PART $part_board \
 	TARGET_LANGUAGE {Verilog} \
 	DEFAULT_LIB {xil_defaultlib} \
 	IP_REPO_PATHS $ipdir \

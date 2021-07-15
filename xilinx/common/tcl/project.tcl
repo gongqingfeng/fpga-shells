@@ -9,6 +9,6 @@ source [file join $scriptdir "preset.tcl"]
 # Initialize Vivado project files
 source [file join $scriptdir "init.tcl"]
 
-puts "INFO: Recreating block diagram from $boarddir/zybo_bd.tcl"
-source [file join $boarddir tcl zybo_bd.tcl]
+puts "INFO: Recreating block diagram from $boarddir/ebaz4205_bd.tcl"
+source [file join $boarddir tcl ebaz4205_bd.tcl]
 
